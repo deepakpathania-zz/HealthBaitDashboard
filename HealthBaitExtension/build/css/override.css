@@ -5,3 +5,10 @@
 	text-align: center !important;
 	width: 100% !important;
 }
+.x_panel {
+	box-shadow:0 2px 6px 0 hsla(206,8%,62%,.3) !important;
+}
+.x_panel:hover {
+	box-shadow:0 8px 20px 0 hsla(206,8%,62%,.3) !important;
+	transform:translateY(-3px);
+}
