@@ -6,6 +6,6 @@
 "icons": {
 "128": "logo.png"
 },
-"chrome_url_overrides" : { "newtab": "dashboard.html"
+"chrome_url_overrides" : { "newtab": "dashboard/dashboard.html"
 }
 }
