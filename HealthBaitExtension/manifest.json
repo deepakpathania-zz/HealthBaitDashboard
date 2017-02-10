@@ -3,8 +3,13 @@
 "description": "Fetches user data from our HealthBait Dashboard to tell user stats and motivate through quotes in new tab page.",
 "version": "1.0.0",
 "manifest_version": 2,
+ "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Health Mate",    
+    "default_popup": "popup.html"  
+    },
 "icons": {
-"128": "logo.png"
+"128": "icon.png"
 },
 "chrome_url_overrides" : { "newtab": "dashboard/dashboard.html"
 }
