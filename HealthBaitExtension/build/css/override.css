@@ -1,3 +1,6 @@
+body {
+	overflow: hidden !important; 
+}
 .right_col {
 	margin-left:0 !important
 }
@@ -11,4 +14,9 @@
 .x_panel:hover {
 	box-shadow:0 8px 20px 0 hsla(206,8%,62%,.3) !important;
 	transform:translateY(-3px);
+}
+.cookie {
+	font-family: 'Cookie', sans-serif;
+	letter-spacing: 2px;
+	word-spacing: 5px;
 }
