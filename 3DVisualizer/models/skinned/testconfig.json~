@@ -1,0 +1,13 @@
+{
+	"baseUrl":		"models/skinned/UCS/",
+	"character":	"basis.js",
+	"skins": 		["Highlighted_Muscles.jpg"],
+	"morphs": 		["Height","Chest","Neck Width","Neck Height","Shoulders","Shoulder's Slope","Bust Girth","Waist","Wrist","Arm Length","Arm Grith","Hip Girth","Hip Height","Thigh Girth","Lower Leg Length","Calf"],
+	"morphslimit": 			[160, 96 , 37, 12 , 13 , 1 , 86 , 76 , 26 , 15 , 16 , 112 , 36 , 42 , 38 , 55 ],
+	"morphslowlimit": 		[120, 83 , 32 ,9 , 11 , 0 , 81 , 64 , 21 , 12 , 12 , 96 , 29 , 30 , 29 , 49],
+	"morphshighlimit": 		[250, 250, 40 ,16 , 16 , 2 , 97 , 100 ,32,  40 , 20 , 124 , 46 , 63 , 46 ,61],
+	"x":	0,
+	"y":	2400,
+	"z":	100,
+	"s":70
+}
