@@ -1318,7 +1318,7 @@ table.jambo_table tbody tr.selected td {
 .dataTables_wrapper {
     position: relative;
     clear: both;
-    zoom: 1
+    zoom: 1;
 }
 .dataTables_processing {
     position: absolute;
@@ -4167,15 +4167,7 @@ ul.notifications {
     line-height: 11px;
     margin-top: 4px;
 }
-@media (max-width: 460px) {
-    .dataTables_wrapper .col-sm-6 {
-        width: 100%;
-        margin-bottom: 5px;
-    }
-    .dataTables_wrapper .col-sm-6 .dataTables_filter {
-        float: none;
-    }
-}
+
 
 
 @media (max-width: 767px) {
@@ -4237,5 +4229,6 @@ table thead .checkbox.radio { margin-top:-7px;margin-top:-21px; }
 .daterangepicker.xdisplay { width:228px; }
 
 .dataTables_wrapper > .row{
+  display:none !important;
   overflow:auto !important; /*prevent datatables overflowing its container*/
 }
