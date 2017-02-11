@@ -1997,6 +1997,7 @@ if (typeof NProgress != 'undefined') {
 				
 				
 
+
 			if ($('#canvas_line').length ){
 				
 				var canvas_line_00 = new Chart(document.getElementById("canvas_line"), {
@@ -2004,7 +2005,7 @@ if (typeof NProgress != 'undefined') {
 				  data: {
 					labels: ["January", "February", "March", "April", "May", "June", "July"],
 					datasets: [{
-					  label: "My First dataset",
+					  label: "Goals Completed in %",
 					  backgroundColor: "rgba(38, 185, 154, 0.31)",
 					  borderColor: "rgba(38, 185, 154, 0.7)",
 					  pointBorderColor: "rgba(38, 185, 154, 0.7)",
@@ -2012,32 +2013,22 @@ if (typeof NProgress != 'undefined') {
 					  pointHoverBackgroundColor: "#fff",
 					  pointHoverBorderColor: "rgba(220,220,220,1)",
 					  pointBorderWidth: 1,
-					  data: [31, 74, 6, 39, 20, 85, 7]
-					}, {
-					  label: "My Second dataset",
-					  backgroundColor: "rgba(3, 88, 106, 0.3)",
-					  borderColor: "rgba(3, 88, 106, 0.70)",
-					  pointBorderColor: "rgba(3, 88, 106, 0.70)",
-					  pointBackgroundColor: "rgba(3, 88, 106, 0.70)",
-					  pointHoverBackgroundColor: "#fff",
-					  pointHoverBorderColor: "rgba(151,187,205,1)",
-					  pointBorderWidth: 1,
-					  data: [82, 23, 66, 9, 99, 4, 2]
+					  data: [31, 74, 80, 39, 52, 85, 72]
 					}]
 				  },
 				});
 				
 			}
+				
 
-			
-			if ($('#canvas_line1').length ){
-			
-				var canvas_line_01 = new Chart(document.getElementById("canvas_line1"), {
+			if ($('#canvas_line2').length ){
+				
+				var canvas_line_00 = new Chart(document.getElementById("canvas_line2"), {
 				  type: 'line',
 				  data: {
 					labels: ["January", "February", "March", "April", "May", "June", "July"],
 					datasets: [{
-					  label: "My First dataset",
+					  label: "Goals Completed in %",
 					  backgroundColor: "rgba(38, 185, 154, 0.31)",
 					  borderColor: "rgba(38, 185, 154, 0.7)",
 					  pointBorderColor: "rgba(38, 185, 154, 0.7)",
@@ -2045,55 +2036,12 @@ if (typeof NProgress != 'undefined') {
 					  pointHoverBackgroundColor: "#fff",
 					  pointHoverBorderColor: "rgba(220,220,220,1)",
 					  pointBorderWidth: 1,
-					  data: [31, 74, 6, 39, 20, 85, 7]
-					}, {
-					  label: "My Second dataset",
-					  backgroundColor: "rgba(3, 88, 106, 0.3)",
-					  borderColor: "rgba(3, 88, 106, 0.70)",
-					  pointBorderColor: "rgba(3, 88, 106, 0.70)",
-					  pointBackgroundColor: "rgba(3, 88, 106, 0.70)",
-					  pointHoverBackgroundColor: "#fff",
-					  pointHoverBorderColor: "rgba(151,187,205,1)",
-					  pointBorderWidth: 1,
-					  data: [82, 23, 66, 9, 99, 4, 2]
+					  data: [31, 74, 80, 39, 52, 85, 72]
 					}]
 				  },
 				});
-			
+				
 			}
-				
-				
-			if ($('#canvas_line2').length ){		
-			
-				var canvas_line_02 = new Chart(document.getElementById("canvas_line2"), {
-				  type: 'line',
-				  data: {
-					labels: ["January", "February", "March", "April", "May", "June", "July"],
-					datasets: [{
-					  label: "My First dataset",
-					  backgroundColor: "rgba(38, 185, 154, 0.31)",
-					  borderColor: "rgba(38, 185, 154, 0.7)",
-					  pointBorderColor: "rgba(38, 185, 154, 0.7)",
-					  pointBackgroundColor: "rgba(38, 185, 154, 0.7)",
-					  pointHoverBackgroundColor: "#fff",
-					  pointHoverBorderColor: "rgba(220,220,220,1)",
-					  pointBorderWidth: 1,
-					  data: [31, 74, 6, 39, 20, 85, 7]
-					}, {
-					  label: "My Second dataset",
-					  backgroundColor: "rgba(3, 88, 106, 0.3)",
-					  borderColor: "rgba(3, 88, 106, 0.70)",
-					  pointBorderColor: "rgba(3, 88, 106, 0.70)",
-					  pointBackgroundColor: "rgba(3, 88, 106, 0.70)",
-					  pointHoverBackgroundColor: "#fff",
-					  pointHoverBorderColor: "rgba(151,187,205,1)",
-					  pointBorderWidth: 1,
-					  data: [82, 23, 66, 9, 99, 4, 2]
-					}]
-				  },
-				});
-
-			}	
 			
 			
 			if ($('#canvas_line3').length ){
@@ -2103,7 +2051,7 @@ if (typeof NProgress != 'undefined') {
 				  data: {
 					labels: ["January", "February", "March", "April", "May", "June", "July"],
 					datasets: [{
-					  label: "My First dataset",
+					  label: "My First dataset 3",
 					  backgroundColor: "rgba(38, 185, 154, 0.31)",
 					  borderColor: "rgba(38, 185, 154, 0.7)",
 					  pointBorderColor: "rgba(38, 185, 154, 0.7)",
